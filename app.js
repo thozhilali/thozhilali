@@ -12,7 +12,7 @@ fetch('https://raw.githubusercontent.com/thozhilali/thozhilali/refs/heads/main/c
     });
 
 // Fetch services data from the JSON file
-fetch('services.json')
+fetch('https://raw.githubusercontent.com/thozhilali/thozhilali/refs/heads/main/services.json')
     .then(response => response.json())
     .then(data => {
         services = data; // Store the fetched data in the services array
