@@ -1,0 +1,63 @@
+{
+    "Chennai": [
+      "Anna Nagar",
+      "Adyar",
+      "Mylapore",
+      "Ambattur",
+      "Avadi",
+      "Tiruvottiyur",
+      "T Nagar",
+      "Kodambakkam",
+      "Nungambakkam",
+      "Velachery"
+    ],
+    "Thiruvallur": [
+      "Avadi",
+      "Poonamallee",
+      "Tiruttani",
+      "Tiruvallur",
+      "Gummidipoondi",
+      "Minjur",
+      "Uthukkottai",
+      "Ambattur"
+    ],
+    "Kancheepuram": [
+      "Kanchipuram Town",
+      "Sriperumbudur",
+      "Pallavaram",
+      "Tambaram"
+    ],
+    "Coimbatore": [
+      "Peelamedu",
+      "Singanallur",
+      "RSK Nagar",
+      "Gandhipuram"
+    ],
+    "Salem": [
+      "Salem Town",
+      "Attur",
+      "Mettur"
+    ],
+    "Vellore": [
+      "Vellore Town",
+      "Gudiyattam",
+      "Ambur"
+    ],
+    "Tiruchirappalli": [
+      "Srirangam",
+      "Thillai Nagar"
+    ],
+    "Cuddalore": [
+      "Cuddalore Town",
+      "Chidambaram"
+    ],
+    "Tiruppur": [
+      "Tiruppur Town",
+      "Kangayam"
+    ],
+    "Madurai": [
+      "Madurai Town",
+      "Melur"
+    ]
+  }
+  
