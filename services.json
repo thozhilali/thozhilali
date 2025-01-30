@@ -1,0 +1,38 @@
+
+[
+    {
+        "name": "Plumber",
+        "city": "Chennai",
+        "area": "Anna Nagar",
+        "description": "Fix leaky pipes and plumbing problems.",
+        "phone": "+919876543210"
+    },
+    {
+        "name": "Electrician",
+        "city": "Chennai",
+        "area": "Anna Nagar",
+        "description": "Handle electrical repairs and installations.",
+        "phone": "+919876543211"
+    },
+    {
+        "name": "Painter",
+        "city": "Chennai",
+        "area": "T Nagar",
+        "description": "Paint walls and interiors.",
+        "phone": "+91 9876543212"
+    },
+    {
+        "name": "Home Cleaner",
+        "city": "Thiruvallur",
+        "area": "Avadi",
+        "description": "Cleaning and organizing services.",
+        "phone": "+919876543213"
+    },
+    {
+        "name": "Barber",
+        "city": "Madurai",
+        "area": "Anna Nagar",
+        "description": "Haircuts and grooming services.",
+        "phone": "+919876543214"
+    }
+]
