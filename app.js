@@ -2,7 +2,7 @@ let services = [];
 let citiesAndAreas = {}; // To hold the cities and areas data
 
 // Fetch cities and areas data from the JSON file
-fetch('citiesAndAreas.json')
+fetch('https://raw.githubusercontent.com/thozhilali/thozhilali/refs/heads/main/citiesAndAreas.json')
     .then(response => response.json())
     .then(data => {
         citiesAndAreas = data; // Store the fetched data in citiesAndAreas
