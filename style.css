@@ -102,7 +102,15 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             text-align: center;
           }
+          label.dark-mode {
+          display: inline-block; /* Ensures proper padding & shape */
+          background: black; /* Light background */
+          padding: 8px 15px; /* Adjust padding for better shape */
+          border-radius: 20px; /* Rounds the edges */
+          font-size: 16px;
+          font-weight: bold;  
 
+          }
 
           /* Toggle Button Styles */
           .toggle-btn {
