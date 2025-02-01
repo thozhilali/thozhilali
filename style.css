@@ -1,10 +1,11 @@
-          body {
+ body {
             font-family: Arial, sans-serif;
             margin: 0;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
             transition: background-color 0.3s, color 0.3s;
+            font-family: serif;
           }
          label {
           display: inline-block; /* Ensures proper padding & shape */
@@ -12,19 +13,21 @@
           padding: 8px 15px; /* Adjust padding for better shape */
           border-radius: 20px; /* Rounds the edges */
           font-size: 16px;
-          font-weight: bold;  
+          font-weight: bold; 
+          font-family: serif; 
           }
           select {
           appearance: none; /* Removes default arrow */
           background: #f1f1f1;
           padding: 10px 15px;
-          border-radius: 20px; /* Makes the select box rounded */
+          border-radius: 5px; /* Makes the select box rounded */
           border: 1px solid #ccc;
           font-size: 16px;
           cursor: pointer;
           outline: none;
           width: 100%;
           position: relative;
+          font-family: serif;
           }
 
           .navbar {
@@ -35,6 +38,8 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            border-radius: 15px; /* Adjust for more/less rounding */
+            margin: 10px; /* Adds spacing around the navbar */
           }
           .navbar a {
             
@@ -44,7 +49,7 @@
             display: inline-block;
           }
           .navbar a:hover {
-            position: fixed;
+            
             background: #555;
           }
 
@@ -61,6 +66,8 @@
             display: flex;
             gap: 20px;
             justify-content: center;
+            border-radius: 15px;
+
           }
 
           .navbar-links a {
@@ -100,16 +107,16 @@
 
           /* Dark Mode Styles */
           body.dark-mode {
-            background-color: #333;
+            background-color: black;
             color: white;
           }
           .navbar.dark-mode {
-            background-color: #222;
+            background-color: black;
           }
           .card-container.dark-mode {
-            background-color: #444;
+            background-color: black;
             color: white;
-            border: 1px solid #555;
+            border: 1px solid black;
           }
           .footer.dark-mode {
             background-color: #222;
@@ -136,8 +143,8 @@
           /* Toggle Button Styles */
           .toggle-btn {
             position: fixed;
-            top: 3px;
-            right: 2px;
+            top: 15px;
+            right: 5px;
             background-color: transparent;
             border: none;
             font-size: 24px;
@@ -170,6 +177,7 @@
             color: white;
             border: none;
             cursor: pointer;
+            border-radius: 5px;
           }
 
           button:hover {
@@ -254,5 +262,10 @@
 
             .menu-icon {
               display: block;
+            }
+            .toggle-btn{
+              top: 22px;
+            right: 15px;
+
             }
           }
